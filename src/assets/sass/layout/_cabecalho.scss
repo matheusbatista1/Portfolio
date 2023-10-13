@@ -1,0 +1,13 @@
+.cabecalho{
+    margin-top: 0;
+    transition: height 1s;
+    height: 70px;
+    background-image: linear-gradient(to bottom, $cor-cabecalho, $cor-fundo);
+}
+
+@media (max-width:$breakpoint-lg) {
+    .cabecalho{
+        transition: 1s;
+        height: auto;
+    }
+}

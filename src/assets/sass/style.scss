@@ -1,0 +1,30 @@
+// Abstracts
+@import 'abstracts/_cores';
+@import 'abstracts/_breakpoints';
+
+// Base
+@import 'base/_normalize';
+@import 'base/_fontes';
+@import 'base/_meu-reset';
+
+// Layout
+@import 'layout/_cabecalho';
+@import 'layout/_container';
+@import 'layout/_rodape';
+
+// Components
+@import 'components/_logo';
+@import 'components/_animations';
+@import 'components/_caminhos';
+@import 'components/_menu-principal';
+
+// Pages
+@import 'pages/_calcpricing';
+@import 'pages/_scc-19';
+@import 'pages/_portfolio';
+@import 'pages/_contato';
+@import 'pages/_curriculo';
+@import 'pages/_home';
+
+// Vendor
+//@import 'vendors/jquery.fancybox.min';

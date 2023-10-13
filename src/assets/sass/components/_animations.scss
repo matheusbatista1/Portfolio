@@ -1,0 +1,32 @@
+@keyframes profile_capa {
+    0% {opacity: 0; transform: translate(0px, 20px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes profile_title {
+    0% {opacity: 0; transform: translate(0px, -20px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes conteudo {
+    0% {opacity: 0; transform: translate(-20px, 0px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes navigation {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes mudaCor{
+    0%{
+        background-color: rgb(43, 44, 126);
+    }
+    50%{
+        background-color: rgb(79, 144, 182);
+    }
+    100%{
+        background-color: rgb(8, 8, 49);
+    }
+}

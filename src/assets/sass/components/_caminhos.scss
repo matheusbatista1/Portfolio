@@ -1,0 +1,19 @@
+.caminho{
+    list-style: none;
+    padding-left: 0;
+    color: $cor-selecao;
+    li{
+        display: inline-block;
+    }
+    &__atual{
+        color: $cor-selecao;
+    }
+}
+
+@media (max-width:$breakpoint-lg) {
+    .caminho{
+        li{
+            font-size: 13px;
+        }
+    }
+}

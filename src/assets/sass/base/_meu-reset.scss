@@ -1,0 +1,20 @@
+*{
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    a{
+        text-decoration: none;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-image: linear-gradient(to bottom, $cor-fundo, $cor-rodape);
+    font-family: 'Montserrat', monospace;
+    font-weight: 200;
+    position: relative;
+    min-height: 100vh;
+}

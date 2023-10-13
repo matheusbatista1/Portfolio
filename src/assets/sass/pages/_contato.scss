@@ -1,0 +1,16 @@
+.back-link{
+    position: relative;
+    color: $cor-selecao;
+    text-decoration: underline;
+    top: 30px;
+}
+
+#container-contato{
+    padding-bottom: 400px;
+}
+
+@media (max-width:$breakpoint-lg) {
+    #container-contato{
+        padding-bottom: 440px;
+    }
+}

@@ -18,16 +18,17 @@
                         <li><a class="rodape__lista-link__item" href="index.php">Home</a></li>
                         <li><a class="rodape__lista-link__item" href="portfolio.php">Portfolio</a></li>
                         <li><a class="rodape__lista-link__item" href="curriculo.php">Currículo</a></li>
+                        <li><a class="rodape__lista-link__item" href="repositorios.php">Repositórios</a></li>
                         <li><a class="rodape__lista-link__item" href="contato.php">Contato</a></li>
                     </ul>
                 </div>
             </div><!--Fim do container-->
         </div>
         <div class="rodape__linha-1" id="direitos-autorais">
-            © <?php echo date('Y')?> - Todos os direitos reservados - Matheus dos Santos Batista
+            © 2023 - Todos os direitos reservados - Matheus dos Santos Batista
         </div>
     </footer>
-    <script src="./assets/js/app.min.js"></script>
-    <script src="./assets/js/bundle.js"></script>
+    <script src="public/assets/js/app.min.js"></script>
+    <script src="public/assets/js/bundle.js"></script>
 </body>
 </html>

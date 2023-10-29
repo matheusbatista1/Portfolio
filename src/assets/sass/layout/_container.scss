@@ -2,7 +2,7 @@
     animation-name: conteudo;
     animation-duration: 2s;
     
-    padding: 80px 180px 80px 100px;
+    padding: 80px 300px 80px 300px;
     font-weight: normal;
     h2{
         text-transform: uppercase;
@@ -23,6 +23,6 @@
 
 @media (max-width:$breakpoint-lg) {
     .container{
-        padding: 10px 2% 40px 2%;
+        padding: 10px 5% 40px 5%;
     }
 }

@@ -9,6 +9,12 @@
     width: 100%;
     background-image: linear-gradient(to top, black, $cor-fundo);
 
+    .container-rodape{
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+    }
+
     &__linha-1{
         background-size: cover;
         overflow: auto; 
@@ -54,6 +60,9 @@
         font-size: 70%;
     }
     .rodape{
+        .container-rodape{
+            width: 90%;
+        }
         &__coluna{
             margin: auto;
             float: none;

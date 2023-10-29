@@ -9,8 +9,16 @@
     padding-bottom: 400px;
 }
 
+
+
 @media (max-width:$breakpoint-lg) {
     #container-contato{
-        padding-bottom: 440px;
+        padding-bottom: 480px;
+    }
+}
+
+@media (max-width: 375px){
+    #container-contato{
+        padding-bottom: 520px;
     }
 }

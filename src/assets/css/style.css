@@ -361,7 +361,7 @@ body {
 .container {
   animation-name: conteudo;
   animation-duration: 2s;
-  padding: 80px 180px 80px 100px;
+  padding: 80px 300px 80px 300px;
   font-weight: normal; }
   .container h2 {
     text-transform: uppercase;
@@ -378,7 +378,7 @@ body {
 
 @media (max-width: 992px) {
   .container {
-    padding: 10px 2% 40px 2%; } }
+    padding: 10px 5% 40px 5%; } }
 
 #direitos-autorais {
   margin-top: 0px;
@@ -390,6 +390,10 @@ body {
   bottom: 0;
   width: 100%;
   background-image: linear-gradient(to top, black, #172B3A); }
+  .rodape .container-rodape {
+    width: 80%;
+    position: relative;
+    margin: 0 auto; }
   .rodape__linha-1 {
     background-size: cover;
     overflow: auto;
@@ -424,6 +428,8 @@ body {
 @media (max-width: 992px) {
   #direitos-autorais {
     font-size: 70%; }
+  .rodape .container-rodape {
+    width: 90%; }
   .rodape__coluna {
     margin: auto;
     float: none;
@@ -544,6 +550,88 @@ body {
       width: 50px;
       left: 30px; } }
 
+#container-calculadoraMB {
+  padding-bottom: 300px;
+  text-align: center; }
+  #container-calculadoraMB h1 {
+    text-align: center; }
+  #container-calculadoraMB h2, #container-calculadoraMB p {
+    text-align: justify; }
+  #container-calculadoraMB .caminho {
+    text-align: left; }
+  #container-calculadoraMB .foto-trabalhos {
+    width: 80%;
+    max-width: 1000px;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  #container-calculadoraMB #foto-trabalhos-1, #container-calculadoraMB #foto-trabalhos-2 {
+    display: none; }
+  #container-calculadoraMB #foto-trabalhos-1-pc, #container-calculadoraMB #foto-trabalhos-2-pc {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%; }
+  #container-calculadoraMB .back-link {
+    display: flex; }
+
+@media (max-width: 992px) {
+  #container-calculadoraMB {
+    padding-bottom: 480px; }
+    #container-calculadoraMB .foto-trabalhos {
+      max-width: 400px;
+      width: 80%; }
+    #container-calculadoraMB #foto-trabalhos-1, #container-calculadoraMB #foto-trabalhos-2 {
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+    #container-calculadoraMB #foto-trabalhos-1-pc, #container-calculadoraMB #foto-trabalhos-2-pc {
+      display: none; } }
+
+@media (max-width: 375px) {
+  #container-calculadoraMB {
+    padding-bottom: 520px; } }
+
+#container-calculadoraIMC {
+  padding-bottom: 300px;
+  text-align: center; }
+  #container-calculadoraIMC h1 {
+    text-align: center; }
+  #container-calculadoraIMC h2, #container-calculadoraIMC p {
+    text-align: justify; }
+  #container-calculadoraIMC .caminho {
+    text-align: left; }
+  #container-calculadoraIMC .foto-trabalhos {
+    width: 80%;
+    max-width: 1000px;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  #container-calculadoraIMC #foto-trabalhos-1, #container-calculadoraIMC #foto-trabalhos-2 {
+    display: none; }
+  #container-calculadoraIMC #foto-trabalhos-1-pc, #container-calculadoraIMC #foto-trabalhos-2-pc {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%; }
+  #container-calculadoraIMC .back-link {
+    display: flex; }
+
+@media (max-width: 992px) {
+  #container-calculadoraIMC {
+    padding-bottom: 480px; }
+    #container-calculadoraIMC .foto-trabalhos {
+      max-width: 400px;
+      width: 80%; }
+    #container-calculadoraIMC #foto-trabalhos-1, #container-calculadoraIMC #foto-trabalhos-2 {
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+    #container-calculadoraIMC #foto-trabalhos-1-pc, #container-calculadoraIMC #foto-trabalhos-2-pc {
+      display: none; } }
+
+@media (max-width: 375px) {
+  #container-calculadoraIMC {
+    padding-bottom: 520px; } }
+
 #container-calcpricing {
   padding-bottom: 300px;
   text-align: center; }
@@ -570,7 +658,7 @@ body {
 
 @media (max-width: 992px) {
   #container-calcpricing {
-    padding-bottom: 440px; }
+    padding-bottom: 480px; }
     #container-calcpricing .foto-trabalhos {
       max-width: 400px;
       width: 80%; }
@@ -580,6 +668,10 @@ body {
       display: block; }
     #container-calcpricing #foto-trabalhos-1-pc, #container-calcpricing #foto-trabalhos-2-pc, #container-calcpricing #foto-trabalhos-3-pc {
       display: none; } }
+
+@media (max-width: 375px) {
+  #container-calcpricing {
+    padding-bottom: 520px; } }
 
 #container-scc-19 {
   padding-bottom: 300px;
@@ -599,13 +691,19 @@ body {
 
 @media (max-width: 992px) {
   #container-scc-19 {
-    padding-bottom: 440px;
+    padding-bottom: 480px;
     text-align: left; }
     #container-scc-19 .foto-trabalhos {
       width: 100%; } }
 
+@media (max-width: 375px) {
+  #container-scc-19 {
+    padding-bottom: 520px; } }
+
 #container-portfolio {
-  padding-bottom: 240px; }
+  padding-bottom: 300px;
+  padding-left: 250px;
+  padding-right: 250px; }
 
 .miniatura {
   width: 320px;
@@ -641,12 +739,18 @@ body {
 
 @media (max-width: 992px) {
   #container-portfolio {
-    padding-bottom: 440px; }
+    padding-bottom: 480px;
+    padding-left: 5%;
+    padding-right: 5%; }
   .miniatura {
     max-width: 100%;
     background-size: auto 100%; }
   .blackbox {
     opacity: 0.8; } }
+
+@media (max-width: 375px) {
+  #container-portfolio {
+    padding-bottom: 520px; } }
 
 .back-link {
   position: relative;
@@ -659,7 +763,11 @@ body {
 
 @media (max-width: 992px) {
   #container-contato {
-    padding-bottom: 440px; } }
+    padding-bottom: 480px; } }
+
+@media (max-width: 375px) {
+  #container-contato {
+    padding-bottom: 520px; } }
 
 #container-curriculo {
   padding-bottom: 300px; }
@@ -682,37 +790,41 @@ body {
       max-width: 100%;
       margin-right: 0px; } }
 
-.capa div {
-  display: inline-block;
-  height: 650px; }
+@media (max-width: 375px) {
+  #container-curriculo {
+    padding-bottom: 520px; } }
 
-.capa__profile-pic {
-  animation-name: profile_capa;
-  animation-duration: 2s;
-  width: 40%;
-  text-align: center; }
-  .capa__profile-pic img {
-    width: 350px;
-    border-radius: 350px;
-    margin-top: 100px; }
-
-.capa__profile-title {
-  animation-name: profile_title;
-  animation-duration: 2s;
-  vertical-align: top;
-  width: 59%; }
-  .capa__profile-title h1 {
-    text-transform: uppercase;
-    font-size: 58px;
-    margin-top: 200px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    line-height: 54px; }
-  .capa__profile-title h2 {
-    font-weight: 200;
-    font-size: 16px;
-    margin-top: -26px;
-    margin-left: 04px; }
+.capa {
+  padding-bottom: 230px; }
+  .capa div {
+    display: inline-block;
+    height: 650px; }
+  .capa__profile-pic {
+    animation-name: profile_capa;
+    animation-duration: 2s;
+    width: 40%;
+    text-align: center; }
+    .capa__profile-pic img {
+      width: 350px;
+      border-radius: 350px;
+      margin-top: 100px; }
+  .capa__profile-title {
+    animation-name: profile_title;
+    animation-duration: 2s;
+    vertical-align: top;
+    width: 59%; }
+    .capa__profile-title h1 {
+      text-transform: uppercase;
+      font-size: 58px;
+      margin-top: 200px;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      line-height: 54px; }
+    .capa__profile-title h2 {
+      font-weight: 200;
+      font-size: 16px;
+      margin-top: -26px;
+      margin-left: 04px; }
 
 .sobrenome--home {
   font-weight: 400;
@@ -742,3 +854,80 @@ body {
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px; } }
+
+@media (max-width: 375px) {
+  .capa {
+    padding-bottom: 520px; } }
+
+#back-link-repos {
+  padding: 10px 5% 40px 12%;
+  padding-bottom: 340px;
+  padding-top: 0; }
+
+#repositorios {
+  background-color: #0d1117;
+  border-radius: 6px;
+  padding: 20px; }
+
+#container-repositorios {
+  padding: 80px 10% 80px 10%; }
+  #container-repositorios .project {
+    border: 1px solid #30363d;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 6px;
+    margin: 20px; }
+    #container-repositorios .project h4 {
+      margin: 0; }
+    #container-repositorios .project div {
+      display: flex;
+      justify-content: space-between; }
+    #container-repositorios .project a {
+      color: #8b949e; }
+    #container-repositorios .project__title {
+      color: #46a6f0; }
+    #container-repositorios .project__date-create {
+      color: #8b949e;
+      border: 1px solid #8b949e;
+      border-radius: 20px;
+      padding: 5px 10px;
+      font-size: 0.9rem; }
+    #container-repositorios .project__language .circle {
+      background-color: #46a6f0;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin-right: 5px;
+      border: 1px solid #30363d;
+      border-radius: 50%; }
+
+@media (max-width: 1080px) {
+  #repositorios {
+    padding: 3px; }
+    #repositorios p {
+      font-size: 13px; }
+    #repositorios h4 {
+      font-size: 13px; }
+    #repositorios a {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 50%;
+      font-size: 12px; }
+    #repositorios .project__date-create {
+      font-size: 10px; } }
+
+@media (max-width: 992px) {
+  #back-link-repos {
+    padding-bottom: 480px;
+    padding-top: 0; }
+  #container-repositorios {
+    padding: 10px 2% 40px 2%; }
+    #container-repositorios p {
+      line-height: 30px; } }
+
+@media (max-width: 375px) {
+  #back-link-repos {
+    padding-bottom: 520px; } }

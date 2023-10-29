@@ -1,9 +1,9 @@
-<?php include('assets/partes/cabecalho.php') ?>
+<?php include('cabecalho.php') ?>
 	<body>
 		
 			<div class="capa">
 				<div class="capa__profile-pic">
-					<img src="../src/assets/img/matheus-profile-headset.jpg" alt="Foto de Matheus Batista">
+					<img src="src/assets/img/matheus-profile-headset.jpg" alt="Foto de Matheus Batista">
 				</div>
 
 				<div class="capa__profile-title">
@@ -13,4 +13,4 @@
 			</div>
 
 	</body>
-<?php include('assets/partes/rodape.php') ?>
+<?php include('rodape.php') ?>

@@ -19,12 +19,15 @@
 @import 'components/_menu-principal';
 
 // Pages
+@import 'pages/_calculadoraMB';
+@import 'pages/_calculadoraIMC';
 @import 'pages/_calcpricing';
 @import 'pages/_scc-19';
 @import 'pages/_portfolio';
 @import 'pages/_contato';
 @import 'pages/_curriculo';
 @import 'pages/_home';
+@import 'pages/_repositorios.scss';
 
 // Vendor
 //@import 'vendors/jquery.fancybox.min';

@@ -1,5 +1,7 @@
 #container-portfolio{
-    padding-bottom: 240px;
+    padding-bottom: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 .miniatura{
     width: 320px;
@@ -40,7 +42,9 @@
 
 @media (max-width:$breakpoint-lg) {
     #container-portfolio{
-        padding-bottom: 440px;
+        padding-bottom: 480px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .miniatura{
         max-width: 100%;
@@ -48,5 +52,11 @@
     }
     .blackbox{
         opacity: 0.8;
+    }
+}
+
+@media (max-width: 375px){
+    #container-portfolio{
+        padding-bottom: 520px;
     }
 }

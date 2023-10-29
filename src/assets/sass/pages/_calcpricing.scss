@@ -32,7 +32,7 @@
 
 @media (max-width:$breakpoint-lg) {
     #container-calcpricing{
-        padding-bottom: 440px;
+        padding-bottom: 480px;
         .foto-trabalhos{
             max-width: 400px;
             width: 80%;
@@ -45,5 +45,11 @@
         #foto-trabalhos-1-pc, #foto-trabalhos-2-pc, #foto-trabalhos-3-pc {
             display: none;
         }
+    }
+}
+
+@media (max-width: 375px){
+    #container-calcpricing{
+        padding-bottom: 520px;
     }
 }

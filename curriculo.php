@@ -61,17 +61,17 @@
 
 					<h2>Experiência de Trabalho</h2>
 					<hr>
+						<h3>Analista Front-End Jr</h3>
+
+							<p>Doutores da Web | Grupo Ideal Trends - São Paulo, SP<br>11/2023 - Atualmente</p>
+
 						<h3>Monitor de Desenvolvimento Infantil</h3>
 
-							<p>Prefeitura Municipal de Itapevi - Itapevi, SP<br>05/2022 - Atualmente</p>
+							<p>Prefeitura Municipal de Itapevi - Itapevi, SP<br>05/2022 - 11/2023</p>
 
 						<h3>Operador de Loja</h3>
 
 							<p>Grupo Pão de Açúcar - Santana de Parnaíba, SP<br>08/2019 - 01/2021</p>
-
-						<h3>Jovem Aprendiz</h3>
-
-							<p>Prefeitura Municipal de Itapevi - Itapevi, SP<br>07/2015 - 01/2016</p>
 
 					
 					<h2>Habilidades Interpessoais</h2>

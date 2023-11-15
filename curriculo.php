@@ -61,7 +61,7 @@
 
 					<h2>Experiência de Trabalho</h2>
 					<hr>
-						<h3>Analista Front-End Jr</h3>
+						<h3>Desenvolvedor Front-End Jr</h3>
 
 							<p>Doutores da Web | Grupo Ideal Trends - São Paulo, SP<br>11/2023 - Atualmente</p>
 
